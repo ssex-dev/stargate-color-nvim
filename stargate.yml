@@ -239,6 +239,10 @@ highlights:
 
   # -- END Easymotion --
 
+  # -- START Illuminate --
+  IlluminatedWordText: "test"
+  # -- END Illuminate --
+  #
   # -- START Startify --
   StartifyNumber: "orange"
   StartifySelect: "var"
