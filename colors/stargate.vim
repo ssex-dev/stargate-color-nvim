@@ -7,7 +7,7 @@ if exists('syntax_on')
 endif
 let g:colors_name='stargete'
 
-hi Normal guifg=#d7d7ce ctermfg=188 guibg=#12001b ctermbg=233 gui=NONE cterm=NONE
+hi Normal guifg=#d7d7ce ctermfg=188 guibg=#0f0016 ctermbg=232 gui=NONE cterm=NONE
 hi Comment guifg=#6272a4 ctermfg=61 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Constant guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#f92696 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -42,7 +42,7 @@ hi Underlined guifg=#8be9fd ctermfg=117 gui=underline cterm=underline
 hi Cursor guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#2c323c ctermbg=236 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#abb2bf ctermfg=249 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi SignColumn guifg=NONE ctermfg=NONE guibg=#12001b ctermbg=233 gui=NONE cterm=NONE
+hi SignColumn guifg=NONE ctermfg=NONE guibg=#0f0016 ctermbg=232 gui=NONE cterm=NONE
 hi Conceal guifg=#6272a4 ctermfg=61 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#2c323c ctermbg=236 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#2c323c ctermbg=236 gui=NONE cterm=NONE
@@ -77,7 +77,7 @@ hi StatusLineTerm guifg=#abb2bf ctermfg=249 guibg=#2c323c ctermbg=236 gui=NONE c
 hi StatusLineTermNC guifg=#2c323c ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TabLine guifg=#6272a4 ctermfg=61 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TabLineSel guifg=#abb2bf ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TabLineFill guifg=NONE ctermfg=NONE guibg=#12001b ctermbg=233 gui=NONE cterm=NONE
+hi TabLineFill guifg=NONE ctermfg=NONE guibg=#0f0016 ctermbg=232 gui=NONE cterm=NONE
 hi Terminal guifg=#abb2bf ctermfg=249 guibg=#1e1e1e ctermbg=234 gui=NONE cterm=NONE
 hi Visual guifg=NONE ctermfg=NONE guibg=#3e4452 ctermbg=238 gui=NONE cterm=NONE
 hi VisualNOS guifg=#3e4452 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
