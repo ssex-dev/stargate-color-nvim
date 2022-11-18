@@ -19,7 +19,7 @@ hi Identifier guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi Function guifg=#f92696 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Statement guifg=#c4a4f9 ctermfg=183 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Conditional guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Repeat guifg=#c4a4f9 ctermfg=183 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Repeat guifg=#ffde00 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Label guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Operator guifg=#c4a4f9 ctermfg=183 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Keyword guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
