@@ -55,7 +55,7 @@ highlights:
   StorageClass: "pink"
   Structure: "class"
   Typedef: "class"
-  Special: "var - i"
+  Special: "purple - i"
   SpecialComment: "line_grey"
   Error: "error_red - br"
   Todo: "purple - bi"
