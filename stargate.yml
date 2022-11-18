@@ -11,7 +11,7 @@ palette:
   error_red: "#F44747"
   var: "#E644F6"
   class: "#F92696"
-  orange: "#58FF00"
+  css_value: "#FF3BBC"
   pink: "#ff79c6"
   purple: "#C4A4F9"
   cyan: "#8be9fd"
@@ -33,9 +33,9 @@ highlights:
   Constant: "pink"
   String: "class"
   Character: "var"
-  Number: "orange"
+  Number: "css_value"
   Boolean: "cyan"
-  Float: "orange"
+  Float: "css_value"
   Identifier: "cyan"
   Function: "class"
   Statement: "purple"
@@ -70,7 +70,7 @@ highlights:
   CursorLine: "- cursor_grey"
   Directory: "cyan"
   DiffAdd: "black var"
-  DiffChange: "orange"
+  DiffChange: "css_value"
   DiffDelete: "red"
   DiffText: "line_grey"
   ErrorMsg: "error_red"
@@ -132,10 +132,10 @@ highlights:
   TSFuncBuiltin: "cyan"
   TSFunction: "var"
   TSFuncMacro: "var"
-  TSParameter: "orange"
-  TSParameterReference: "orange"
+  TSParameter: "css_value"
+  TSParameterReference: "css_value"
   TSMethod: "var"
-  TSField: "orange"
+  TSField: "css_value"
   TSProperty: "fg"
   TSConstructor: "cyan"
   # Keywords
@@ -190,9 +190,9 @@ highlights:
 
   # Markdown (keep consistent with HTML, above)
   markdownBlockquote: "class - i"
-  markdownBold: "orange - b"
+  markdownBold: "css_value - b"
   markdownCode: "var"
-  markdownCodeBlock: "orange"
+  markdownCodeBlock: "css_value"
   markdownCodeDelimiter: "red"
   markdownH1: "pink - b"
   markdownH2: "pink - b"
@@ -246,7 +246,7 @@ highlights:
   # -- END Illuminate --
   #
   # -- START Startify --
-  StartifyNumber: "orange"
+  StartifyNumber: "css_value"
   StartifySelect: "var"
   StartifyBracket: "pink"
   StartifySpecial: "cyan"
@@ -296,7 +296,7 @@ highlights:
   # Directory: "blue - b"
   
   # VimWiki
-  VimwikiHeader1: "orange - b"
+  VimwikiHeader1: "css_value - b"
   VimwikiHeader2: "var - b"
   VimwikiHeader3: "pink - b"
   VimwikiHeader4: "cyan - b"
@@ -305,6 +305,6 @@ highlights:
   VimwikiLink: "cyan"
   VimwikiHeaderChar: "line_grey"
   VimwikiHR: "class"
-  VimwikiList: "orange"
-  VimwikiTag: "orange"
+  VimwikiList: "css_value"
+  VimwikiTag: "css_value"
   VimwikiMarkers: "line_grey"
