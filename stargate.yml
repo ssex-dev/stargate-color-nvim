@@ -241,6 +241,8 @@ highlights:
 
   # -- START Illuminate --
   IlluminatedWordText: "test"
+  IlluminatedWordRead: "test"
+  IlluminatedWordWrite: "test"
   # -- END Illuminate --
   #
   # -- START Startify --
