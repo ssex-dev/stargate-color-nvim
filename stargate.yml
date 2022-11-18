@@ -140,7 +140,7 @@ highlights:
   TSConstructor: "cyan"
   # Keywords
   TSConditional: "pink"
-  TSRepeat: "pink"
+  TSRepeat: "test"
   TSLabel: "cyan"
   # Does not work for yield and return they should be diff then class and def
   TSKeyword: "pink"
