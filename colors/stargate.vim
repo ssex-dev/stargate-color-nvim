@@ -12,9 +12,9 @@ hi Comment guifg=#6272a4 ctermfg=61 guibg=NONE ctermbg=NONE gui=italic cterm=ita
 hi Constant guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#f92696 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Character guifg=#e644f6 ctermfg=171 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Number guifg=#de94e3 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Number guifg=#98338e ctermfg=96 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Boolean guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Float guifg=#de94e3 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Float guifg=#98338e ctermfg=96 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Identifier guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Function guifg=#f92696 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Statement guifg=#c4a4f9 ctermfg=183 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -48,7 +48,7 @@ hi CursorColumn guifg=NONE ctermfg=NONE guibg=#2c323c ctermbg=236 gui=NONE cterm
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#2c323c ctermbg=236 gui=NONE cterm=NONE
 hi Directory guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffAdd guifg=#1e1e1e ctermfg=234 guibg=#e644f6 ctermbg=171 gui=NONE cterm=NONE
-hi DiffChange guifg=#de94e3 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiffChange guifg=#98338e ctermfg=96 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffDelete guifg=#ff5555 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffText guifg=#6272a4 ctermfg=61 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ErrorMsg guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -104,10 +104,10 @@ hi TSNamespace guifg=#ff00ff ctermfg=201 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi TSFuncBuiltin guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSFunction guifg=#e644f6 ctermfg=171 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSFuncMacro guifg=#e644f6 ctermfg=171 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSParameter guifg=#de94e3 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSParameterReference guifg=#de94e3 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSParameter guifg=#98338e ctermfg=96 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSParameterReference guifg=#98338e ctermfg=96 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSMethod guifg=#e644f6 ctermfg=171 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSField guifg=#de94e3 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSField guifg=#98338e ctermfg=96 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSProperty guifg=#f8f8f2 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstructor guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConditional guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -151,9 +151,9 @@ hi htmlTagN guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi htmlTagName guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlTitle guifg=#abb2bf ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownBlockquote guifg=#f92696 ctermfg=198 guibg=NONE ctermbg=NONE gui=italic cterm=italic
-hi markdownBold guifg=#de94e3 ctermfg=176 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi markdownBold guifg=#98338e ctermfg=96 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi markdownCode guifg=#e644f6 ctermfg=171 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownCodeBlock guifg=#de94e3 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownCodeBlock guifg=#98338e ctermfg=96 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownCodeDelimiter guifg=#ff5555 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownH1 guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi markdownH2 guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=bold cterm=bold
@@ -192,7 +192,7 @@ hi EasyMotionShade guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cter
 hi IlluminatedWordText guifg=#ffde00 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IlluminatedWordRead guifg=#ffde00 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IlluminatedWordWrite guifg=#ffde00 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi StartifyNumber guifg=#de94e3 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi StartifyNumber guifg=#98338e ctermfg=96 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifySelect guifg=#e644f6 ctermfg=171 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifyBracket guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifySpecial guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -215,7 +215,7 @@ hi diffNewFile guifg=#e644f6 ctermfg=171 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi diffOldFile guifg=#ff5555 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi debugPc guifg=NONE ctermfg=NONE guibg=#8be9fd ctermbg=117 gui=NONE cterm=NONE
 hi debugBreakpoint guifg=#ff5555 ctermfg=203 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
-hi VimwikiHeader1 guifg=#de94e3 ctermfg=176 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi VimwikiHeader1 guifg=#98338e ctermfg=96 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi VimwikiHeader2 guifg=#e644f6 ctermfg=171 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi VimwikiHeader3 guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi VimwikiHeader4 guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=bold cterm=bold
@@ -224,6 +224,6 @@ hi VimwikiHeader6 guifg=#c4a4f9 ctermfg=183 guibg=NONE ctermbg=NONE gui=bold cte
 hi VimwikiLink guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiHeaderChar guifg=#6272a4 ctermfg=61 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiHR guifg=#f92696 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi VimwikiList guifg=#de94e3 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi VimwikiTag guifg=#de94e3 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi VimwikiList guifg=#98338e ctermfg=96 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi VimwikiTag guifg=#98338e ctermfg=96 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiMarkers guifg=#6272a4 ctermfg=61 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
