@@ -7,7 +7,7 @@ if exists('syntax_on')
 endif
 let g:colors_name='stargete'
 
-hi Normal guifg=#f8f8f2 ctermfg=255 guibg=#12001b ctermbg=233 gui=NONE cterm=NONE
+hi Normal guifg=#d7d7ce ctermfg=188 guibg=#12001b ctermbg=233 gui=NONE cterm=NONE
 hi Comment guifg=#6272a4 ctermfg=61 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Constant guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#f92696 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -57,7 +57,7 @@ hi Folded guifg=#6272a4 ctermfg=61 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FoldColumn guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IncSearch guifg=#f92696 ctermfg=198 guibg=#6272a4 ctermbg=61 gui=NONE cterm=NONE
 hi LineNr guifg=#6272a4 ctermfg=61 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi MatchParen guifg=#f8f8f2 ctermfg=255 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi MatchParen guifg=#d7d7ce ctermfg=188 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi NonText guifg=#3b4048 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Pmenu guifg=#abb2bf ctermfg=249 guibg=#282c34 ctermbg=236 gui=NONE cterm=NONE
 hi PmenuSel guifg=#1e1e1e ctermfg=234 guibg=#8be9fd ctermbg=117 gui=NONE cterm=NONE
@@ -85,9 +85,9 @@ hi WarningMsg guifg=#f92696 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi WildMenu guifg=#1e1e1e ctermfg=234 guibg=#8be9fd ctermbg=117 gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#1e1e1e ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSError guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSPunctDelimiter guifg=#f8f8f2 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSPunctBracket guifg=#f8f8f2 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSPunctSpecial guifg=#f8f8f2 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSPunctDelimiter guifg=#d7d7ce ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSPunctBracket guifg=#d7d7ce ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSPunctSpecial guifg=#d7d7ce ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstant guifg=#c4a4f9 ctermfg=183 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstBuiltin guifg=#c4a4f9 ctermfg=183 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstMacro guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -108,7 +108,7 @@ hi TSParameter guifg=#d726c6 ctermfg=164 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi TSParameterReference guifg=#d726c6 ctermfg=164 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSMethod guifg=#e644f6 ctermfg=171 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSField guifg=#d726c6 ctermfg=164 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSProperty guifg=#f8f8f2 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSProperty guifg=#d7d7ce ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstructor guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConditional guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSRepeat guifg=#ffde00 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -122,7 +122,7 @@ hi TSType guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTypeBuiltin guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSStructure guifg=#c4a4f9 ctermfg=183 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSInclude guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSVariable guifg=#f8f8f2 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSVariable guifg=#d7d7ce ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSVariableBuiltin guifg=#c4a4f9 ctermfg=183 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSText guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSStrong guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
