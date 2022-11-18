@@ -30,7 +30,7 @@ highlights:
   Normal: "fg bg"
 
   Comment: "line_grey - i"
-  Constant: "test"
+  Constant: "pink"
   String: "class"
   Character: "var"
   Number: "orange"

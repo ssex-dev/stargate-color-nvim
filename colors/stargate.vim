@@ -9,7 +9,7 @@ let g:colors_name='stargete'
 
 hi Normal guifg=#f8f8f2 ctermfg=255 guibg=#12001b ctermbg=233 gui=NONE cterm=NONE
 hi Comment guifg=#6272a4 ctermfg=61 guibg=NONE ctermbg=NONE gui=italic cterm=italic
-hi Constant guifg=#ffde00 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Constant guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#f92696 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Character guifg=#e644f6 ctermfg=171 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Number guifg=#ffe4fa ctermfg=225 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
