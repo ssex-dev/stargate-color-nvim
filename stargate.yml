@@ -5,12 +5,12 @@ information:
 
 palette:
   fg: "#F8F8F2"
-  bg: "#110010"
+  bg: "#12001B"
 
   red: "#ff5555"
   error_red: "#F44747"
-  var: "#FFA4C6"
-  class: "#39F926"
+  var: "#E644F6"
+  class: "#F92696"
   orange: "#FFE4FA"
   pink: "#ff79c6"
   purple: "#C4A4F9"
