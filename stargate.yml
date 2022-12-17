@@ -1,280 +1,281 @@
 information:
   name: stargete
   background: dark
-  author: "Rolf Stargate"
+  author: 'Rolf Stargate'
 
 palette:
-  fg: "#D7D7CE"
-  bg: "#0F0016"
+  fg: '#D7D7CE'
+  bg: '#0F0016'
 
-  red: "#ff5555"
-  error_red: "#F44747"
-  var: "#E644F6"
-  class: "#F92696"
-  css_value: "#D726C6"
-  pink: "#ff79c6"
-  purple: "#C4A4F9"
-  cyan: "#8be9fd"
-  white: "#ABB2BF"
-  black: "#1E1E1E"
-  test: "#FFDE00"
-  line_grey: "#6272A4"
-  gutter_fg_grey: "#4B5263"
-  cursor_grey: "#2C323C"
-  visual_grey: "#3E4452"
-  menu_grey: "#282C34"
-  special_grey: "#3B4048"
-  vertsplit: "#567FE5"
+  red: '#ff5555'
+  error_red: '#F44747'
+  var: '#E644F6'
+  class: '#F92696'
+  css_value: '#D726C6'
+  pink: '#ff79c6'
+  purple: '#C4A4F9'
+  cyan: '#8be9fd'
+  white: '#ABB2BF'
+  black: '#1E1E1E'
+  test: '#2BFF00'
+  repeat: '#FFDE00'
+  line_grey: '#6272A4'
+  gutter_fg_grey: '#4B5263'
+  cursor_grey: '#2C323C'
+  visual_grey: '#3E4452'
+  menu_grey: '#282C34'
+  special_grey: '#3B4048'
+  vertsplit: '#181A1F'
 
 highlights:
-  Normal: "fg bg"
+  Normal: 'fg bg'
 
-  Comment: "line_grey - i"
-  Constant: "pink"
-  String: "class"
-  Character: "var"
-  Number: "css_value"
-  Boolean: "cyan"
-  Float: "css_value"
-  Identifier: "cyan"
-  Function: "class"
-  Statement: "purple"
-  Conditional: "pink"
-  Repeat: "test"
-  Label: "cyan"
-  Operator: "purple"
-  Keyword: "cyan"
-  Exception: "purple"
-  PreProc: "class"
-  Include: "purple"
-  Define: "purple"
-  Title: "cyan"
-  Macro: "purple"
-  PreCondit: "cyan"
-  Type: "cyan - i"
-  StorageClass: "pink"
-  Structure: "class"
-  Typedef: "class"
-  Special: "purple - b"
-  SpecialComment: "line_grey"
-  Error: "error_red - br"
-  Todo: "purple - bi"
-  Underlined: "cyan . u"
-  Cursor: "- - r"
+  Comment: 'line_grey - i'
+  Constant: 'pink'
+  String: 'class'
+  Character: 'var'
+  Number: 'css_value'
+  Boolean: 'cyan'
+  Float: 'css_value'
+  Identifier: 'cyan'
+  Function: 'class'
+  Statement: 'purple'
+  Conditional: 'pink'
+  Repeat: 'repeat'
+  Label: 'cyan'
+  Operator: 'purple'
+  Keyword: 'cyan'
+  Exception: 'purple'
+  PreProc: 'class'
+  Include: 'purple'
+  Define: 'purple'
+  Title: 'cyan'
+  Macro: 'purple'
+  PreCondit: 'cyan'
+  Type: 'cyan - i'
+  StorageClass: 'pink'
+  Structure: 'class'
+  Typedef: 'class'
+  Special: 'purple - b'
+  SpecialComment: 'line_grey'
+  Error: 'error_red - br'
+  Todo: 'purple - bi'
+  Underlined: 'cyan . u'
+  Cursor: '- - r'
 
-  ColorColumn: "- cursor_grey"
-  CursorLineNr: "white - b"
-  SignColumn: "- bg"
-  Conceal: "line_grey"
-  CursorColumn: "- cursor_grey"
-  CursorLine: "- cursor_grey"
-  Directory: "cyan"
-  DiffAdd: "black var"
-  DiffChange: "css_value"
-  DiffDelete: "red"
-  DiffText: "line_grey"
-  ErrorMsg: "error_red"
-  VertSplit: "vertsplit"
-  Folded: "line_grey"
-  FoldColumn: ""
-  IncSearch: "class line_grey"
-  LineNr: "line_grey"
-  MatchParen: "fg - u"
-  NonText: "special_grey"
-  Pmenu: "white menu_grey"
-  PmenuSel: "black cyan"
-  PmenuSbar: "- special_grey"
-  PmenuThumb: "- white"
-  Question: "purple"
-  QuickFixLine: "black class"
-  Search: "black class"
-  SpecialKey: "special_grey"
-  SpellBad: "error_red - u"
-  SpellCap: "class"
-  SpellLocal: "class"
-  SpellRare: "class"
-  StatusLine: "white cursor_grey"
-  StatusLineNC: "line_grey"
-  StatusLineTerm: "white cursor_grey"
-  StatusLineTermNC: "cursor_grey"
-  TabLine: "line_grey"
-  TabLineSel: "white"
-  TabLineFill: "- bg"
-  Terminal: "white black"
-  Visual: "- visual_grey"
-  VisualNOS: "visual_grey"
-  WarningMsg: "class"
-  WildMenu: "black cyan"
-  EndOfBuffer: "black"
+  ColorColumn: '- cursor_grey'
+  CursorLineNr: 'white - b'
+  SignColumn: '- bg'
+  Conceal: 'line_grey'
+  CursorColumn: '- cursor_grey'
+  CursorLine: '- cursor_grey'
+  Directory: 'cyan'
+  DiffAdd: 'black var'
+  DiffChange: 'css_value'
+  DiffDelete: 'red'
+  DiffText: 'line_grey'
+  ErrorMsg: 'error_red'
+  VertSplit: 'vertsplit'
+  Folded: 'line_grey'
+  FoldColumn: ''
+  IncSearch: 'class line_grey'
+  LineNr: 'line_grey'
+  MatchParen: 'fg - u'
+  NonText: 'special_grey'
+  Pmenu: 'white menu_grey'
+  PmenuSel: 'black cyan'
+  PmenuSbar: '- special_grey'
+  PmenuThumb: '- white'
+  Question: 'purple'
+  QuickFixLine: 'black class'
+  Search: 'black class'
+  SpecialKey: 'special_grey'
+  SpellBad: 'error_red - u'
+  SpellCap: 'class'
+  SpellLocal: 'class'
+  SpellRare: 'class'
+  StatusLine: 'white cursor_grey'
+  StatusLineNC: 'line_grey'
+  StatusLineTerm: 'white cursor_grey'
+  StatusLineTermNC: 'cursor_grey'
+  TabLine: 'line_grey'
+  TabLineSel: 'white'
+  TabLineFill: '- bg'
+  Terminal: 'white black'
+  Visual: '- visual_grey'
+  VisualNOS: 'visual_grey'
+  WarningMsg: 'class'
+  WildMenu: 'black cyan'
+  EndOfBuffer: 'black'
 
   # -- Start Treesitter --
   # Misc
-  TSError: "error_red"
-  TSPunctDelimiter: "fg"
-  TSPunctBracket: "fg"
-  TSPunctSpecial: "fg"
+  TSError: 'error_red'
+  TSPunctDelimiter: 'fg'
+  TSPunctBracket: 'fg'
+  TSPunctSpecial: 'fg'
   # Constants
-  TSConstant: "purple"
-  TSConstBuiltin: "purple"
+  TSConstant: 'purple'
+  TSConstBuiltin: 'purple'
   # Not sure about this guy
-  TSConstMacro: "cyan"
-  TSStringRegex: "red"
-  TSString: "class"
-  TSStringEscape: "cyan"
-  TSCharacter: "var"
-  TSNumber: "purple"
-  TSBoolean: "purple"
-  TSFloat: "var"
-  TSAnnotation: "class"
-  TSAttribute: "cyan"
-  TSNamespace: "#FF00FF"
+  TSConstMacro: 'cyan'
+  TSStringRegex: 'red'
+  TSString: 'class'
+  TSStringEscape: 'cyan'
+  TSCharacter: 'var'
+  TSNumber: 'purple'
+  TSBoolean: 'purple'
+  TSFloat: 'var'
+  TSAnnotation: 'class'
+  TSAttribute: 'cyan'
+  TSNamespace: '#FF00FF'
   # Functions
-  TSFuncBuiltin: "cyan"
-  TSFunction: "var"
-  TSFuncMacro: "var"
-  TSParameter: "css_value"
-  TSParameterReference: "css_value"
-  TSMethod: "var"
-  TSField: "css_value"
-  TSProperty: "fg"
-  TSConstructor: "cyan"
+  TSFuncBuiltin: 'cyan'
+  TSFunction: 'var'
+  TSFuncMacro: 'var'
+  TSParameter: 'css_value'
+  TSParameterReference: 'css_value'
+  TSMethod: 'var'
+  TSField: 'css_value'
+  TSProperty: 'fg'
+  TSConstructor: 'cyan'
   # Keywords
-  TSConditional: "pink"
-  TSRepeat: "test"
-  TSLabel: "cyan"
+  TSConditional: 'pink'
+  TSRepeat: 'test'
+  TSLabel: 'cyan'
   # Does not work for yield and return they should be diff then class and def
-  TSKeyword: "pink"
-  TSKeywordFunction: "cyan"
-  TSKeywordOperator: "pink"
-  TSOperator: "pink"
-  TSException: "purple"
-  TSType: "pink"
-  TSTypeBuiltin: "cyan - i"
-  TSStructure: "purple"
-  TSInclude: "pink"
+  TSKeyword: 'pink'
+  TSKeywordFunction: 'cyan'
+  TSKeywordOperator: 'pink'
+  TSOperator: 'pink'
+  TSException: 'purple'
+  TSType: 'pink'
+  TSTypeBuiltin: 'cyan - i'
+  TSStructure: 'purple'
+  TSInclude: 'pink'
   # Variable
-  TSVariable: "fg"
-  TSVariableBuiltin: "purple"
+  TSVariable: 'fg'
+  TSVariableBuiltin: 'purple'
   # Text
-  TSText: "#FFFF00"
-  TSStrong: "#FFFF00"
-  TSEmphasis: "#FFFF00"
-  TSUnderline: "#FFFF00"
-  TSTitle: "#FFFF00"
-  TSLiteral: "#FFFF00"
-  TSURI: "#FFFF00"
+  TSText: '#FFFF00'
+  TSStrong: '#FFFF00'
+  TSEmphasis: '#FFFF00'
+  TSUnderline: '#FFFF00'
+  TSTitle: '#FFFF00'
+  TSLiteral: '#FFFF00'
+  TSURI: '#FFFF00'
   # Tags
-  TSTag: "cyan"
-  TSTagDelimiter: "white"
+  TSTag: 'cyan'
+  TSTagDelimiter: 'white'
   # -- END Treesitter --
 
   # -- START Languages --
   # HTML (keep consistent with Markdown, below)
-  htmlArg: "class"
-  htmlBold: "class - b"
-  htmlEndTag: "white"
-  htmlH1: "pink"
-  htmlH2: "pink"
-  htmlH3: "pink"
-  htmlH4: "pink"
-  htmlH5: "pink"
-  htmlH6: "pink"
-  htmlItalic: "purple - i"
-  htmlLink: "var - u"
-  htmlSpecialChar: "class"
-  htmlSpecialTagName: "cyan"
-  htmlTag: "pink"
-  htmlTagN: "pink"
-  htmlTagName: "cyan"
-  htmlTitle: "white"
+  htmlArg: 'class'
+  htmlBold: 'class - b'
+  htmlEndTag: 'white'
+  htmlH1: 'pink'
+  htmlH2: 'pink'
+  htmlH3: 'pink'
+  htmlH4: 'pink'
+  htmlH5: 'pink'
+  htmlH6: 'pink'
+  htmlItalic: 'purple - i'
+  htmlLink: 'var - u'
+  htmlSpecialChar: 'class'
+  htmlSpecialTagName: 'cyan'
+  htmlTag: 'pink'
+  htmlTagN: 'pink'
+  htmlTagName: 'cyan'
+  htmlTitle: 'white'
 
   # Markdown (keep consistent with HTML, above)
-  markdownBlockquote: "class - i"
-  markdownBold: "css_value - b"
-  markdownCode: "var"
-  markdownCodeBlock: "css_value"
-  markdownCodeDelimiter: "red"
-  markdownH1: "pink - b"
-  markdownH2: "pink - b"
-  markdownH3: "pink - b"
-  markdownH4: "pink - b"
-  markdownH5: "pink - b"
-  markdownH6: "pink - b"
-  markdownHeadingDelimiter: "red"
-  markdownHeadingRule: "line_grey"
-  markdownId: "purple"
-  markdownIdDeclaration: "cyan"
-  markdownIdDelimiter: "purple"
-  markdownItalic: "class - i"
-  markdownLinkDelimiter: "purple"
-  markdownLinkText: "pink"
-  markdownListMarker: "cyan"
-  markdownOrderedListMarker: "red"
-  markdownRule: "line_grey"
-  markdownUrl: "cyan - u"
+  markdownBlockquote: 'class - i'
+  markdownBold: 'css_value - b'
+  markdownCode: 'var'
+  markdownCodeBlock: 'css_value'
+  markdownCodeDelimiter: 'red'
+  markdownH1: 'pink - b'
+  markdownH2: 'pink - b'
+  markdownH3: 'pink - b'
+  markdownH4: 'pink - b'
+  markdownH5: 'pink - b'
+  markdownH6: 'pink - b'
+  markdownHeadingDelimiter: 'red'
+  markdownHeadingRule: 'line_grey'
+  markdownId: 'purple'
+  markdownIdDeclaration: 'cyan'
+  markdownIdDelimiter: 'purple'
+  markdownItalic: 'class - i'
+  markdownLinkDelimiter: 'purple'
+  markdownLinkText: 'pink'
+  markdownListMarker: 'cyan'
+  markdownOrderedListMarker: 'red'
+  markdownRule: 'line_grey'
+  markdownUrl: 'cyan - u'
   # -- END Languages --
 
   # -- START CoC --
-  CocExplorerIndentLine: "line_grey"
-  CocExplorerBufferRoot: "cyan"
-  CocExplorerFileRoot: "cyan"
-  CocExplorerBufferFullPath: "line_grey"
-  CocExplorerFileFullPath: "line_grey"
-  CocExplorerBufferReadonly: "red"
-  CocExplorerBufferModified: "purple"
-  CocExplorerBufferNameVisible: "var"
-  CocExplorerFileReadonly: "red"
-  CocExplorerFileModified: "purple"
-  CocExplorerFileHidden: "line_grey"
-  CocExplorerHelpLine: "purple"
+  CocExplorerIndentLine: 'line_grey'
+  CocExplorerBufferRoot: 'cyan'
+  CocExplorerFileRoot: 'cyan'
+  CocExplorerBufferFullPath: 'line_grey'
+  CocExplorerFileFullPath: 'line_grey'
+  CocExplorerBufferReadonly: 'red'
+  CocExplorerBufferModified: 'purple'
+  CocExplorerBufferNameVisible: 'var'
+  CocExplorerFileReadonly: 'red'
+  CocExplorerFileModified: 'purple'
+  CocExplorerFileHidden: 'line_grey'
+  CocExplorerHelpLine: 'purple'
   # -- END CoC --
 
   # -- START Easymotion --
-  EasyMotionTarget: "error_red - b"
-  EasyMotionTarget2First: "error_red - b"
-  EasyMotionTarget2Second: "error_red - b"
-  EasyMotionShade: ""
+  EasyMotionTarget: 'error_red - b'
+  EasyMotionTarget2First: 'error_red - b'
+  EasyMotionTarget2Second: 'error_red - b'
+  EasyMotionShade: ''
   # EasyMotionIncSearch:
   # EasyMotionMoveHL:
 
   # -- END Easymotion --
 
   # -- START Illuminate --
-  IlluminatedWordText: "test"
-  IlluminatedWordRead: "test"
-  IlluminatedWordWrite: "test"
+  IlluminatedWordText: 'test'
+  IlluminatedWordRead: 'test'
+  IlluminatedWordWrite: 'test'
   # -- END Illuminate --
   #
   # -- START Startify --
-  StartifyNumber: "css_value"
-  StartifySelect: "var"
-  StartifyBracket: "pink"
-  StartifySpecial: "cyan"
-  StartifyVar: "pink"
-  StartifyPath: "cyan"
-  StartifyFile: "red"
-  StartifySlash: "pink"
-  StartifyHeader: "var"
-  StartifySection: "purple"
-  StartifyFooter: "var"
+  StartifyNumber: 'css_value'
+  StartifySelect: 'var'
+  StartifyBracket: 'pink'
+  StartifySpecial: 'cyan'
+  StartifyVar: 'pink'
+  StartifyPath: 'cyan'
+  StartifyFile: 'red'
+  StartifySlash: 'pink'
+  StartifyHeader: 'var'
+  StartifySection: 'purple'
+  StartifyFooter: 'var'
   # -- END Startify --
   # -- START WhichKey --
-  WhichKey: "purple"
-  WhichKeySeperator: "var"
-  WhichKeyGroup: "cyan"
-  WhichKeyDesc: "cyan"
+  WhichKey: 'purple'
+  WhichKeySeperator: 'var'
+  WhichKeyGroup: 'cyan'
+  WhichKeyDesc: 'cyan'
   # -- END WhichKey --
   # old stuff
-  diffAdded: "var"
-  diffRemoved: "red"
-  diffFileId: "class - br"
-  diffFile: "special_grey"
-  diffNewFile: "var"
-  diffOldFile: "red"
+  diffAdded: 'var'
+  diffRemoved: 'red'
+  diffFileId: 'class - br'
+  diffFile: 'special_grey'
+  diffNewFile: 'var'
+  diffOldFile: 'red'
   # ToolbarLine: ". darkgray"
   # ToolbarButton: "suvagray - r"
-  debugPc: "- cyan"
-  debugBreakpoint: "red - r"
+  debugPc: '- cyan'
+  debugBreakpoint: 'red - r'
   # terminal: "bg red var class blue magenta cyan silver gray red var class blue magenta cyan fg"
   # -- Other junk you can define --
   # Debug
@@ -294,17 +295,17 @@ highlights:
   # MoreMsg: "var - br"
   # Question: "cyan - br"
   # Directory: "blue - b"
-  
+
   # VimWiki
-  VimwikiHeader1: "css_value - b"
-  VimwikiHeader2: "var - b"
-  VimwikiHeader3: "pink - b"
-  VimwikiHeader4: "cyan - b"
-  VimwikiHeader5: "class - b"
-  VimwikiHeader6: "purple - b"
-  VimwikiLink: "cyan"
-  VimwikiHeaderChar: "line_grey"
-  VimwikiHR: "class"
-  VimwikiList: "css_value"
-  VimwikiTag: "css_value"
-  VimwikiMarkers: "line_grey"
+  VimwikiHeader1: 'css_value - b'
+  VimwikiHeader2: 'var - b'
+  VimwikiHeader3: 'pink - b'
+  VimwikiHeader4: 'cyan - b'
+  VimwikiHeader5: 'class - b'
+  VimwikiHeader6: 'purple - b'
+  VimwikiLink: 'cyan'
+  VimwikiHeaderChar: 'line_grey'
+  VimwikiHR: 'class'
+  VimwikiList: 'css_value'
+  VimwikiTag: 'css_value'
+  VimwikiMarkers: 'line_grey'

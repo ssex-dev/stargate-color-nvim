@@ -52,7 +52,7 @@ hi DiffChange guifg=#d726c6 ctermfg=164 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi DiffDelete guifg=#ff5555 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffText guifg=#6272a4 ctermfg=61 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ErrorMsg guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi VertSplit guifg=#567fe5 ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi VertSplit guifg=#181a1f ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Folded guifg=#6272a4 ctermfg=61 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FoldColumn guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IncSearch guifg=#f92696 ctermfg=198 guibg=#6272a4 ctermbg=61 gui=NONE cterm=NONE
@@ -111,7 +111,7 @@ hi TSField guifg=#d726c6 ctermfg=164 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSProperty guifg=#d7d7ce ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstructor guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConditional guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSRepeat guifg=#ffde00 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSRepeat guifg=#2bff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSLabel guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSKeyword guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSKeywordFunction guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -189,9 +189,9 @@ hi EasyMotionTarget guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold c
 hi EasyMotionTarget2First guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi EasyMotionTarget2Second guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi EasyMotionShade guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi IlluminatedWordText guifg=#ffde00 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi IlluminatedWordRead guifg=#ffde00 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi IlluminatedWordWrite guifg=#ffde00 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi IlluminatedWordText guifg=#2bff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi IlluminatedWordRead guifg=#2bff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi IlluminatedWordWrite guifg=#2bff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifyNumber guifg=#d726c6 ctermfg=164 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifySelect guifg=#e644f6 ctermfg=171 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifyBracket guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
